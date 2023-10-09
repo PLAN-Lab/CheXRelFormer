@@ -55,7 +55,7 @@ for idx, row in df.iterrows():
             file.write(name + "\n")
 
 
-    base_path = '/home/gaurang/CXR/data/mimic/physionet.org/files/mimic-cxr-jpg/2.0.0/'
+    base_path = '~/physionet.org/files/mimic-cxr-jpg/2.0.0/'
 
     shutil.copy2(str(base_path + current_img_path), 'A/' + new_img_name) #copy the current image to A
     shutil.copy2(str(base_path + previous_img_path), 'B/' + new_img_name) #copy the previous image to B
