@@ -79,5 +79,15 @@ The dataset folder was processed in the following structure；
 
 ## :thumbsup: Citation
 If you find this method and/or code useful, please consider citing
-
+```
+@inproceedings{10.1007/978-3-031-43904-9_66,
+author="Mbakwe, Amarachi B. and Wang, Lyuyang and Moradi, Mehdi and Lourentzou, Ismini",
+title="Hierarchical Vision Transformers for Disease Progression Detection in Chest X-Ray Images",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2023",
+year="2023",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="685--695"
+}
+```
 
